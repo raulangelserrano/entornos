@@ -21,6 +21,11 @@ public class Aciertos {
         int x = (int) (500 *Math.random());
         //System.out.print(x);
         Scanner sc = new Scanner(System.in);
+        /**
+         * En el bucle principal pregunta un número al usuario
+         * y no sale del bucle hasta que lo acierte, mostrando
+         * "te pasaste" si el número es mayor o "casi cerca" si es menor
+         */
         do {
             System.out.print("\nIntroduce el valor de X: ");
             n = sc.nextInt();
